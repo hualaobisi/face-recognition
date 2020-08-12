@@ -1,0 +1,22 @@
+# Resnet
+Train means: [0.5016767 0.5016767 0.5016767]
+Train std: [0.18614101 0.18614101 0.18614101]
+Test means: [0.4704909 0.4704909 0.4704909]
+Test std: [0.20148875 0.20148875 0.20148875]
+
+# Lenet input
+Train means: [0.45398307]
+Train std: [0.2245015]
+Test means: [0.45433524]
+Test std: [0.23065878]
+
+# Time cost
+
+LeNet5 no BN avg time: 0.4672699999999995
+LeNet5 no BN sum time: 93.45399999999991
+LeNet5 BN avg time: 0.5820400000000002
+LeNet5 BN sum time: 116.40800000000004
+Resnet18 no drop avg time: 11.854375000000005
+Resnet18 no drop sum time: 2370.875000000001
+Resnet18 dropblock avg time: 12.217360000000003
+Resnet18 dropblock sum time: 2443.4720000000007
